@@ -1,15 +1,16 @@
-# Utilitario generar url relativas (Enfocado en AJAX)
+# Utilitario generar url relativas (Enfocado a AJAX)
 
 **Ventajas:**
 
 - No tienes que preocuparte por la entrada de caracteres no deseados.
-- Se específica controlador y acción, en caso de contener parámetros se pueden agregar.
 - Muy sencillo de utilizar.
 - No tiene dependencias.
 - Funciona tanto en local como en internet con http y https.
 
 
 ### Uso básico
+
+Se debe especificar `controlador` y `acción`, en caso de contener parámetros se pueden agregar.
 
 ```javascript
 Ruta normal
