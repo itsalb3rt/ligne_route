@@ -120,7 +120,7 @@ console.log(this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/'))
 
             if (path_indications == false) {
                 if (this.url.pathname.slice(-1) != '/') {
-                    return this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')) + '/';
+                    return '/' +  this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')) + '/';
                 } else {
                     return '/' + this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')) + '/';
                 }
