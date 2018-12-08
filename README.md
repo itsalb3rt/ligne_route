@@ -16,7 +16,7 @@ Se debe especificar `controlador` y `acción`, en caso de contener parámetros s
 Ruta normal
 let route = new Route('foo','bar');
 ```
-Ruta con parametros
+**Ruta con parametros**
 ```javascript
 let route = new Route('foo','bar',1);
 ```
@@ -24,7 +24,7 @@ O
 ```javascript
 let route = new Route('foo','bar','any');
 ```
-Array de parámetros
+**Array de parámetros**
 ```javascript
 let route = new Route('foo','bar',['products',1,'any']);
 ```
