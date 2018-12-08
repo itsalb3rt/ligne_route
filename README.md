@@ -31,5 +31,5 @@ let route = new Route('foo','bar',['products',1,'any']);
  ```javascript
  let route = new Route('foo','bar');
  console.log( route.route );
- http://localhost/foo/bar/foo/bar/
+ http://localhost/foo/bar
 ```
