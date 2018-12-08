@@ -26,7 +26,7 @@ class Route {
         this.controller = controller;
         this.action = action;
         this.parameters = params;
-
+console.log(this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')));
         this.newPathname = null;
         //Solo acepta caracteres alfabeticos
         this.regex = /[0-9éèêëùüàâöïç\"\/\%\(\).'?!,@$# \n\r]/g;
@@ -115,13 +115,14 @@ class Route {
      * ruta sea una ruta valida
      **/
     custom_patchname(path_indications) {
+
         if (typeof path_indications == 'boolean') {
 
             if (path_indications == false) {
                 if (this.url.pathname.slice(-1) != '/') {
-                    return this.url.pathname + '/';
+                    return this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')) + '/';
                 } else {
-                    return this.url.pathname;
+                    return '/' + this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/')) + '/';
                 }
             } else {
                 return null;
