@@ -46,7 +46,7 @@ class Route {
         if (this.protocol != 'file') {
             this.check_controller_action_is_valid();
             this.newPathname = this.patchName;
-            this.parameters = (this.params != null) ? this.params : '';
+            this.parameters = (this.parameters != null) ? this.params : '';
             return this.protocol + '//' + this.host + '/' + this.newPathname + this.parameters;
         } else {
             this.generate_new_throw('No se pueden generar rutas en un archivo local, debe tenerlo en un servidor.');
@@ -58,8 +58,8 @@ class Route {
     }
 
     get params() {
-        if (this.parameters != null) {
 
+        if (this.parameters != null) {
             if (Array.isArray(this.parameters)) {
                 return this.array_params;
             } else if (typeof this.parameters == 'string') {
@@ -103,9 +103,8 @@ class Route {
     }
 
     get array_params() {
-        let params;
+        let params = '';
         for (let index in this.parameters) {
-            if (index == 0) params = '/' + this.parameters[index].toString().trim().replace(this.regex_alfanumeric, '');
             params += '/' + this.parameters[index].toString().trim().replace(this.regex_alfanumeric, '');
         }
         return params;
