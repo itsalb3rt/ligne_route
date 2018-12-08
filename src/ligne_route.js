@@ -29,7 +29,7 @@ class Route {
 
         this.newPathname = null;
         //Solo acepta caracteres alfabeticos
-        this.regex = /[0-9éèêëùüàâöïç\"\/\%\(\).'?!,@$#-_ \n\r]/g;
+        this.regex = /[0-9éèêëùüàâöïç\"\/\%\(\).'?!,@$# \n\r]/g;
         //Acepta caracteres alfanumericos
         this.regex_alfanumeric = /[\W_]+/g;
     }
