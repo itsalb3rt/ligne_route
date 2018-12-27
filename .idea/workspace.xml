@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="becfcb14-6afc-4b4e-8ef7-cddbb247d3fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ligne_route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ligne_route.js" afterDir="false" />
-    </list>
+    <list default="true" id="becfcb14-6afc-4b4e-8ef7-cddbb247d3fc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,10 +84,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="200" />
-    <option name="y" value="15" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="x" value="793" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -147,12 +144,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544240804455</updated>
       <workItem from="1544240805941" duration="17351000" />
-      <workItem from="1544308553724" duration="2213000" />
+      <workItem from="1544308553724" duration="2812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19564000" />
+    <option name="totallyTimeSpent" value="20163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />

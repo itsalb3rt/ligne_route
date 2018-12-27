@@ -31,7 +31,7 @@ console.log(this.url.pathname.substr(1,this.url.pathname.substr(1).indexOf('/'))
         //Solo acepta caracteres alfabeticos
         this.regex = /[0-9éèêëùüàâöïç\"\/\%\(\).'?!,@$# \n\r]/g;
         //Acepta caracteres alfanumericos
-        this.regex_alfanumeric = /[\W_]+/g;
+        this.regex_alfanumeric = /[\W_]+-_/g;
     }
 
     get route() {
